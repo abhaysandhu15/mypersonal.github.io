@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+    /* background-color: #16bee530; */
+}
+
+.left{
+    /* border: 2px solid rgb(217, 255, 0); */
+}
+
+.left img{
+    width: 65px;
+    padding: 10px 10px;
+    opacity: 90%;
+}
+
+.mid{
+    /* border: 2px solid rgb(0, 255, 213); */
+}
+
+.mid ul li{
+    list-style: none;
+    padding: 0px 39px;
+    font-size: 28px;
+}
+
+.mid ul{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+    margin-left: 535px;
+}
+
+
+.mid ul li a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+.mid ul li a:hover,
+.mid ul li a.active
+{
+    /* color: blue; */
+    /* text-decoration: underline; */
+    font-weight: bolder;
+    background-color: rgba(0, 255, 147, 0.49);
+    color: white;
+    padding: 0px 10px;
+    
+}
+
+.right{
+    /* border: 2px solid rgb(255, 0, 128); */
+}
+
+.textbox{
+    /* border: 2px solid red; */
+    width: 45em;
+    height: 28em;
+    position: absolute;
+    right: 5em;
+    top: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox div h2{
+    position: absolute;
+    top: 12%;
+    font-size: 100px;
+    left: 28%;
+    color: #7bffe6;
+}
+
+.textbox div p{
+    font-size: 40px;
+    color: #fff49c;
+}
+
+.textbox div p:hover{
+    font-weight: bolder;
+}
+
+.textbox div img{
+    width: 552px;
+    position: absolute;
+    top: 15%;
+    left: 31%;
+    opacity: 46.5%;
+}
+
+.colgate{
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 18%;
+    width: 22em;
+    height: 7em;
+}
+
+.colgate:hover{
+    background-image: url(/img/Untitled-1.png);
+    
+}

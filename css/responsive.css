@@ -1,0 +1,80 @@
+@media screen and (max-width:800px)
+{
+    header{
+        width: 111vw;
+        background-image: url(/img/ipad\ bg.png);
+    }
+    nav{
+        display: unset;
+    }
+    .mid ul{
+        margin: unset;
+    }
+    .mid{
+        padding-left: 0%;
+        padding-top: 3%;
+    }
+    .mid ul li{
+        font-size: 32px;
+    }
+    .textbox div h2{
+        top: 10%;
+        left: 30%;
+    }
+    .textbox div img{
+        top: 12%;
+        left: 33%;
+    }
+    .textbox{
+        width: 47em;
+        height: 52em;
+        right: 0;
+        top: 11em;
+    }
+    .div2{
+        position: absolute;
+        bottom: 34%;
+        right: 0;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .mid ul li{
+        padding: 0px 10px;
+        font-size: 21px;
+        margin-left: -1vw;
+    }
+    .textbox{
+        width: 23em;
+        height: 43em;
+        right: unset;
+        top: unset;
+    }
+    header{
+        background-image: url(/img/iphoneX\ bg.png);
+    }
+    .textbox div h2{
+        top: 15%;
+        font-size: 82px;
+        left: 12%;
+    }
+    .textbox div p{
+        font-size: 28px;
+    }
+    .div2{
+        width: 60%;
+        position: absolute;
+        bottom: 27%;
+        right: 0%;
+    }
+    .mid{
+        padding-top: 4%;
+    }
+    .textbox div img{
+        left: 5%;
+    }
+    .colgate{
+        bottom: 4%;
+    }
+}
